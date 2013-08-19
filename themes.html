@@ -1,0 +1,55 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Problems Presented by Greed</li>
+					<li data-theme="d">After coming across the pearl, Kino is transformed from a happy and loving person, into a very selfish and brutal person only aspiring to increase his wealth.</li>
+					<li data-theme="c">The pearl which is initially a symbol of hope and promise transforms into one of destruction as Kino allows it to change who he is.</li>
+					<li data-theme="d">He becomes an abusive father, and his lack of care even leads to the death of his son.</li>
+					<li data-theme="c">Kino leaves.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Role That Fate Plays in One's Life</li>
+					<li data-theme="d">For the most part the characters in the novel seem to create their own destiny through their actions and lifestyle's, however at any moment fate can step in and completely change one's future.</li>
+					<li data-theme="c">This is seen when Kino comes across the pearl, he is unknowingly thrust into a new world and his life is altered forever.</li>
+					<li data-theme="d">However when Kino's life is ultimately altered by the pearl he has the ability to adjust to his new fate, yet he allows the opportunity of riches to overpower his good judgment.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Pearl</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

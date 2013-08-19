@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="essayTopics">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html" class="ui-btn-active ui-state-persist">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Essay Topics</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more essay topics needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Discuss the symbolism in the novel and the reactions it invokes.</li>
+					<li data-theme="d">Steinbeck seems to suggest that The Pearl symbolizes something different depending on those who read it.</li>
+					<li data-theme="c">In the novel it also symbolizes something different for different characters.</li>
+					<li data-theme="d">For some who hear of the pearl and its great value, they are moved by greed and only see the wealth it offers them.</li>
+					<li data-theme="c">While other characters who see the greed of others recognize the pearl as a symbol of evil and ill fortune.</li>
+					<li data-theme="d">The pearl is a dangerous treasure bringing out the worst in some people and the worst tragedies in others.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Steinbeck uses foreshadowing throughout the story, though sometimes subtle, detail the examples.</li>
+					<li data-theme="d">The subtlest instance of foreshadowing could perhaps be Coyotito's name.</li>
+					<li data-theme="c">Coyotito means little coyote in Spanish, and when later on in the novel he is mistaken for a baby coyote by trackers it makes sense that he is named Coyotito.</li>
+					<li data-theme="d">Another example would be in chapter two when the narrator discusses "the pearl that might be" an extremely valuable pearl that could change ones life, somewhat foreshadowing the eventual finding of such a pearl.</li>
+					<li data-theme="c">Juana also seems to foreshadow the terrors that will one day come from the pearl, as suggesting it is evil early on when they find it, even suggesting that it will destroy their son long before it happens.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Pearl</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
